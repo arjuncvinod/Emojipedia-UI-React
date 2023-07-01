@@ -20,5 +20,12 @@ const emojipedia = [
     meaning:
       "This is funny! A smiley face, rolling on the floor, laughing. The face is laughing boundlessly. The emoji version of “rofl“. Stands for „rolling on the floor, laughing“.",
   },
+  {
+    id: 4,
+    emoji: "❤️",
+    name: "Red Heart",
+    meaning:
+      "A classic red love heart emoji, used for expressions of love and romance. This is the most popular heart emoji A similar emoji exists for the heart suit in a deck of playing cards..",
+  },
 ];
  export default emojipedia
