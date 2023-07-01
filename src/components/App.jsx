@@ -2,12 +2,12 @@ import React from "react";
 import Entry from "./Entry";
 import emojipedia from "../emojipedia"
 
-function createEntry(emojis){
+function createEntry(emo){
     return <Entry 
-        key={emojis.id}
-        name={emojis.name}
-        emoji={emojis.emoji}
-        meaning={emojis.meaning}
+        key={emo.id}
+        name={emo.name}
+        emoji={emo.emoji}
+        meaning={emo.meaning}
          />
 }
 
